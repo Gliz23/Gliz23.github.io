@@ -24,36 +24,36 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: Glory Akoto
+author: Glory Elizabeth Akoto
 author_bio: I go by the name Glory Elizabeth Akoto. Welcome to my portfolio.
 author_email: "gloryakoto148@gmail.com"
 author_location: Ghana
 author_website_url: "https://github.com/Gliz23"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+typewrite-text: I am a Data Analyst and I am seeking to make a positive difference where ever I find myself.
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
-  - company_name: Google
-    company_logo: google.png
+  - company_name: Liz Inspired Technologies
+    company_logo: liz.png
     company_url: https://google.com
-    designation: Software Engineer
-    description: Worked on various Google Products
+    designation: Data Analytics Tutor
+    description: Taught Data Analytics online.
     visibility: true
-  - company_name: Microsoft
-    company_logo: microsoft.png
+  - company_name: PKAY Software Consultancy
+    company_logo: pkay.jpg
     company_url: https://microsoft.com
-    designation: Azure Developer
-    description: Worked on various Azure Cloud Products
+    designation: React Developer
+    description: Worked on software production for companies like Woezor business.
     visibility: true
 
 # Education
 author_education_details:
-  - college_logo: mit.png
-    college_name: MIT
-    college_url: https://mit.org
-    college_degree: CS Engineer
-    description: Bachelor of Technology
+  - college_logo: ug.png
+    college_name: UNIVERSITY OF GHANA
+    college_url: https://www.ug.edu.gh
+    college_degree: Computer Science and Mathematics
+    description: Bachelor of Science
     visibility: true
 
 # Projects
@@ -70,16 +70,9 @@ author_project_details:
     visibility: true
 
 # social links
-twitter_username: xplor4r
-github_username: sujaykundu777
-instagram_username: xplor4r
-# facebook_username: johndoe
-# linkedin_username: johndoe
-# behance_username: johndoe
-# medium_username: johndoe
-# telegram_username: johndoe
-# dribbble_username: johndoe
-# flickr_username: johndoe
+twitter_username: AkotoGlory55816
+github_username: Gliz23
+linkedin_username: glory-akoto-bab40129a
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
