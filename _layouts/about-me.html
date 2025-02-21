@@ -107,7 +107,7 @@ layout: default
     </div>
     {% endif %}
   </div>
-  <div class="col-lg-10">
+  <div class="col-lg-8">
     {% if site.author_bio %}
     <div class="card">
       <h1 class="card-title">About</h1>
@@ -119,7 +119,7 @@ layout: default
       <br />
       {% for project in site.author_project_details %} {% if project.visibility
       == true %}
-      <div class="col" id="project-card">
+      <div class="row" id="project-card">
         <div class="col-md-4">
           <img
             src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}"
