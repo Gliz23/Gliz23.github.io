@@ -1,0 +1,16 @@
+---
+Gliz23:
+  name: Glory Akoto
+  username: Gliz23
+  site: https://www.youtube.com/@LizInspiredTechnologies
+  avatar: xplor4r.png
+  bio: "I am a Data Scientist"
+  email: gloryakoto148@gmail.com
+  social:
+    - title: "github"
+      url: "https://github.com/Gliz23"
+    - title: "linkedin"
+      url: "https://www.linkedin.com/in/glory-akoto-bab40129a/"
+    - title: "youtube"
+      url: "https://www.youtube.com/@LizInspiredTechnologies"
+---

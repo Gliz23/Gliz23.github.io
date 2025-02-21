@@ -36,13 +36,13 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 author_work_experiences:
   - company_name: Liz Inspired Technologies
     company_logo: liz.png
-    company_url: https://google.com
+    company_url: https://www.youtube.com/@LizInspiredTechnologies
     designation: Data Analytics Tutor
     description: Taught Data Analytics online.
     visibility: true
   - company_name: PKAY Software Consultancy
     company_logo: pkay.jpg
-    company_url: https://microsoft.com
+    company_url: NA
     designation: React Developer
     description: Worked on software production for companies like Woezor business.
     visibility: true
