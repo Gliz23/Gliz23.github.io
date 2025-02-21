@@ -120,22 +120,23 @@ layout: default
       {% for project in site.author_project_details %} {% if project.visibility
       == true %}
       <div class="row" id="project-card">
-        <div class="col-md-4">
+        <div class="col-md-4 d-flex align-items-stretch">
           <img
             src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}"
             class="project-img"
           />
         </div>
-        <div class="col-md-4 center">
+        <div class="col-md-4 d-flex flex-column justify-content-between">
           <h4 class="experience-title">{{ project.project_title }}</h4>
-          <h6 class="experience-info">{{ project.project_info}}</h6>
+          <h6 class="experience-info">{{ project.project_info }}</h6>
           <p class="experience-desc">{{ project.project_description }}</p>
           <p>
             <a class="project-link" href="{{project.project_url}}"
-              >{{ project.project_url}}</a
+              >{{ project.project_url }}</a
             >
           </p>
         </div>
+      </div>
       </div>
       <br />
       {% endif %} {% endfor %}
