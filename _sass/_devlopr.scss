@@ -759,8 +759,10 @@ header {
 
 
 .company-logo {
-    width: 100px;
-    height: 100px;
+    width: 50px; 
+    height: auto;  
+    max-width: 100%;  
+    margin: 0 auto;  
 }
 
 .author-profile-img {
