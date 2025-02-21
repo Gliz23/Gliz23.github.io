@@ -116,30 +116,37 @@ layout: default
     {% endif %} {% if site.show_author_project_details == true %}
     <div id="author_projects" class="card">
       <h1 class="card-title">Projects</h1>
+
+      <div class="row">
       {% for project in site.author_project_details %} {% if project.visibility
       == true %}
-      <div class="col" id="project-card">
+      
+      <div class="col-md-8 mb-4" id="project-card">
         <div class="col-md-8 d-flex align-items-stretch">
-          <img
+          <div class="col-md-4">
+            <img
             src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}"
             class="project-img"
           />
-        </div>
-        <div class="col-md-8 d-flex flex-column justify-content-between">
-          <h4 class="experience-title">{{ project.project_title }}</h4>
-          <h6 class="experience-info">{{ project.project_info }}</h6>
-          <p class="experience-desc">{{ project.project_description }}</p>
-          <p>
-            <a class="project-link" href="{{project.project_url}}"
-              >{{ project.project_url }}</a
-            >
-          </p>
-        </div>
+          </div>
+          <div class="col-md-8 d-flex flex-column justify-content-between">
+            <h4 class="experience-title">{{ project.project_title }}</h4>
+            <h6 class="experience-info">{{ project.project_info }}</h6>
+            <p class="experience-desc">{{ project.project_description }}</p>
+            <p>
+              <a class="project-link" href="{{project.project_url}}"
+                >{{ project.project_url }}
+              </a>
+            </p>
+          </div>
+        </div>        
       </div>
+      {% endif %}
+      {% endfor %}
     </div>
-      <br />
-      {% endif %} {% endfor %}
-      {% endif %} {% if site.show_author_work_experiences == true %}
+  </div>
+  {% endif %}
+     {% if site.show_author_work_experiences == true %}
     <div class="card">
       <h1 class="card-title">Work Experience</h1>
       <br />
